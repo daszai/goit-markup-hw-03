@@ -1,0 +1,12 @@
+body {
+}
+
+.link:focus,
+.link:hover {
+  color: #2196f3;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #2196f3;
+}
