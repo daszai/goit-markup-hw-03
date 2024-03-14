@@ -1,12 +1,53 @@
-body {
+/* Do przechowywania palety kolorów układu (tekst, tło, zaznaczenie) używane są zmienne CSS.*/
+
+:root {
+  --colorMain: #2196f3;
+  --colorTextMain: #212121;
 }
 
+body {
+  font-family: Roboto, sans-sef;
+  color: var(--colorTextMain);
+}
 .link:focus,
 .link:hover {
-  color: #2196f3;
+  color: var(--colorMain);
 }
 
-.button:focus,
-.button:hover {
-  background-color: #2196f3;
+.button {
+  background-color: var(--colorMain);
+  color: white;
+  border: none;
+}
+
+.WebStudio {
+  color: red;
+}
+
+.navigation {
+  color: red;
+}
+
+.navigation-2 {
+  color: red;
+}
+
+.heading-1 {
+  color: red;
+}
+
+.section-1:nth-child(1) {
+  color: yellow;
+}
+
+.section-1:nth-child(2) {
+  color: red;
+}
+
+.heading-2 {
+  color: red;
+}
+
+.section-2 p:nth-child(2) {
+  color: blue;
 }
