@@ -2,40 +2,84 @@
 
 :root {
   --colorMain: #2196f3;
-  --colorTextMain: #212121;
+  --colorTextMainB: #212121;
+  --colorTextMainG: #757575;
+  --background: #ececec;
 }
 
 body {
   font-family: Roboto, sans-sef;
   color: var(--colorTextMain);
 }
+
+ul {
+  list-style-type: none;
+}
+
 .link:focus,
 .link:hover {
   color: var(--colorMain);
 }
 
+.link {
+  color: var(--colorTextMain);
+  text-decoration: none;
+}
 .button {
-  background-color: var(--colorMain);
-  color: white;
+  color: var(--colorTextMain);
   border: none;
+  text-decoration: none;
+  background-color: white;
+}
+.button:focus,
+.button:hover {
+  color: white;
+  background-color: var(--colorMain);
 }
 
 .WebStudio {
-  color: red;
+  font-family: Raleway;
+  font-weight: bold;
+  color: var(--colorTextMain);
+
+  border: none;
+  text-decoration: none;
+  font-size: 26px;
+  letter-spacing: 0, 03em;
 }
 
-.navigation {
-  color: red;
+.Web {
+  color: var(--colorMain);
 }
 
 .navigation-2 {
-  color: red;
+  color: var(--colorTextMainG);
+  font-size: 14px;
+}
+.section1 {
+  background-color: #2f303a;
+}
+
+.navigation {
+  font-size: 14px;
+  letter-spacing: 0, 02em;
 }
 
 .heading-1 {
-  color: red;
+  color: white;
+  font-size: 44px;
 }
 
+.buton-center {
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0, 06em;
+  line-height: 5;
+}
 .section-1:nth-child(1) {
   color: yellow;
 }
@@ -50,4 +94,13 @@ body {
 
 .section-2 p:nth-child(2) {
   color: blue;
+}
+.section-2 p:nth-child(3) {
+  color: green;
+}
+.section-3 li:nth-child(2) {
+  color: green;
+}
+.section-3 li:nth-child(3) {
+  color: red;
 }
