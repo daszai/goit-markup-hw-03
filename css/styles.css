@@ -30,6 +30,7 @@ ul {
   border: none;
   text-decoration: none;
   background-color: white;
+  cursor: pointer;
 }
 .button:focus,
 .button:hover {
@@ -78,29 +79,51 @@ ul {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0, 06em;
-  line-height: 5;
+  line-height: 1, 87;
 }
 .section-1:nth-child(1) {
-  color: yellow;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0, 03em;
+  color: var(--colorTextMainB);
 }
 
 .section-1:nth-child(2) {
-  color: red;
+  font-size: 14px;
+  letter-spacing: 0, 03em;
+  color: var(--colorTextMainG);
+  line-height: 0, 71;
 }
 
 .heading-2 {
-  color: red;
+  font-size: 36px;
+  color: var(--colorTextMainB);
+  line-height: 0, 71;
+  letter-spacing: 0, 03em;
 }
 
 .section-2 p:nth-child(2) {
-  color: blue;
+  font-size: 16px;
+  color: var(--colorTextMainB);
+  letter-spacing: 0, 03em;
+  font-weight: 500;
 }
 .section-2 p:nth-child(3) {
-  color: green;
+  font-size: 16px;
+  color: var(--colorTextMainG);
+  letter-spacing: 0, 03em;
+  font-weight: 500;
 }
 .section-3 li:nth-child(2) {
-  color: green;
+  font-size: 18px;
+  color: var(--colorTextMainB);
+  letter-spacing: 0, 06em;
+  line-height: 2;
+  font-weight: 700;
 }
 .section-3 li:nth-child(3) {
-  color: red;
+  font-size: 16px;
+  color: var(--colorTextMainG);
+  letter-spacing: 0, 03em;
+  line-height: 2;
 }
