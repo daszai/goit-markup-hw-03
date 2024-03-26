@@ -127,3 +127,7 @@ ul {
   letter-spacing: 0, 03em;
   line-height: 2;
 }
+.container {
+  width: 1200px;
+  text-align: center;
+}
